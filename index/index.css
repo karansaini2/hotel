@@ -1,0 +1,139 @@
+.navbar{
+   background-color: 
+   #5b49b9;
+}
+.container-fluid .navbar-brand{
+    color: orange;
+    font-family: cursive;
+    font-size:1.8rem;
+}
+.container-fluid .navbar-brand:hover{
+    color: orange;
+    
+}
+#navbarSupportedContent .navbar-nav .nav-item a {
+    color: rgb(0, 241, 72);
+    font-weight: bold;
+}
+#navbarSupportedContent .navbar-nav .nav-item a:hover{
+    background-color: rgb(182, 42, 238);
+    border-radius: 5px;
+    font-size: 1.03rem;
+}
+.btn{
+    color: rgb(4, 15, 15);
+}
+
+.carousel-inner .carousel-item img{
+    height:70vh;
+
+}
+
+.col-md-4{
+    margin: 25px;
+}
+
+.col-8{
+  margin:25px;
+}
+.footer{
+    background-color: black;
+height:17vh;
+width:100%;
+}
+.footer .right{
+    color: white;
+    float:right;
+    margin-right:15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer .left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left:15px;
+
+}
+
+.left .owner{
+    font-size:1.2rem;
+}
+
+.col-lg-4{
+    margin-top: 50px;
+    margin-bottom:20px;
+}
+
+
+/* SERVICES  DESIGNING*/
+
+.dropdown-menu{
+    background-color:black;
+    list-style: none;
+    
+    
+}
+.dropdown-menu li a{
+  text-decoration: none; 
+  color:orange;
+  padding: 8px; 
+}
+
+
+#head{
+    display: inline;
+    text-align: center;
+    
+}
+#heading{
+    font-size:3rem;
+}
+
+.card-body h4{
+    display: inline;
+}
+.card-body .price{
+    float: right;
+}
+
+
+
+
+
+
+    @media (max-width:400px) {
+        #navbarSupportedContent .navbar-nav .nav-item a:hover{
+        margin-top: 5px;
+        padding: 8px;
+        }  
+
+        .carousel-inner .carousel-item img{
+            height:60vh;
+        
+        
+        }
+        .col-md-4{
+           margin: 18px;
+            width:350px;
+            
+        }
+        .col-8{
+            margin-left:12px;
+            width: 350px;
+        }
+         
+ 
+        .footer{
+            font-size:0.6rem;
+            height: 12vh;
+            width:100%;
+        }
+        
+        .footer .right{
+            margin-top:10px;
+        }
+        
+
+    }
